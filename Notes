@@ -1,0 +1,8 @@
+
+Setting up vertx project:
+
+- mvn io.reactiverse:vertx-maven-plugin::setup
+
+Running vertx application:
+
+- mvn clean compile vertx:run
