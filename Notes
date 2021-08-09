@@ -1,8 +1,21 @@
 
 Setting up vertx project:
 
-- mvn io.reactiverse:vertx-maven-plugin::setup
+ - mvn io.reactiverse:vertx-maven-plugin::setup
+
+ - mvn io.fabric8:vertx-maven-plugin:1.0.5:setup \
+   -DprojectGroupId=io.vertx.sample \
+   -DprojectArtifactId=my-first-vertx-app \
+   -Dverticle=io.vertx.sample.MyFirstVerticle
 
 Running vertx application:
 
-- mvn clean compile vertx:run
+ - mvn clean compile vertx:run
+
+Package the application:
+
+ - mvn clean package 
+
+
+Open Question:
+ - webclient vs httpclient in vertx ??
